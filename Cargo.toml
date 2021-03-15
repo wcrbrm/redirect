@@ -1,0 +1,10 @@
+[package]
+name = "redirect"
+version = "0.0.1"
+description = "full domain redirection"
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
